@@ -53,3 +53,11 @@ Icon
 Network Trash Folder
 Temporary Items
 .apdisk
+
+# Extras
+*-bak
+*-backups
+*-cache*
+*-bak*
+_autosave*
+\#auto_saved_files\#
