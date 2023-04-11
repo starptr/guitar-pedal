@@ -3565,7 +3565,7 @@
     (in_bom yes) (on_board yes) (fields_autoplaced)
     (uuid 5098fff7-b1bd-4ef1-99fe-3f3750157a32)
     (property "Reference" "C3" (id 0) (at 217.1763 38.1 90))
-    (property "Value" "1u" (id 1) (at 217.1763 40.64 90))
+    (property "Value" "1uF" (id 1) (at 217.1763 40.64 90))
     (property "Footprint" "" (id 2) (at 217.17 44.45 0)
       (effects (font (size 1.27 1.27)) hide)
     )
@@ -5125,7 +5125,7 @@
       (reference "C1") (unit 1) (value "1uF") (footprint "")
     )
     (path "/5098fff7-b1bd-4ef1-99fe-3f3750157a32"
-      (reference "C3") (unit 1) (value "1u") (footprint "")
+      (reference "C3") (unit 1) (value "1uF") (footprint "")
     )
     (path "/2b35be39-6c74-45b8-a4e7-272df3c08333"
       (reference "C4") (unit 1) (value "100pF") (footprint "")
