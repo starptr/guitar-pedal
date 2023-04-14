@@ -4098,7 +4098,7 @@
     (property "Value" "Test_Headers" (id 1) (at 347.98 94.4879 0)
       (effects (font (size 1.27 1.27)) (justify right))
     )
-    (property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x10_P2.54mm_Vertical" (id 2) (at 346.202 91.948 0)
+    (property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_2x05_P2.54mm_Vertical" (id 2) (at 346.202 91.948 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (id 3) (at 346.202 91.948 0)
@@ -5269,7 +5269,7 @@
       (reference "J3") (unit 1) (value "AudioJack2") (footprint "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical")
     )
     (path "/8b87fcfc-4d33-4e63-b56b-68b24da21f98"
-      (reference "J4") (unit 1) (value "Test_Headers") (footprint "Connector_PinHeader_2.54mm:PinHeader_1x10_P2.54mm_Vertical")
+      (reference "J4") (unit 1) (value "Test_Headers") (footprint "Connector_PinHeader_2.54mm:PinHeader_2x05_P2.54mm_Vertical")
     )
     (path "/d150c883-e641-4548-a17d-a4c8e8775a90"
       (reference "POT1") (unit 1) (value "B10K") (footprint "Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical")
