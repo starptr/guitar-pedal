@@ -1,0 +1,6 @@
+(fp_lib_table
+  (lib (name "KiCAD")(type "KiCad")(uri "/Users/gabe/Documents/school/hope decal/ul_RC4580IPWR/KiCAD.pretty")(options "")(descr ""))
+  (lib (name "footprints")(type "KiCad")(uri "/Users/gabe/Documents/school/hope decal/ul_RC4580IPWR/KiCAD/2023-04-14_21-09-11/footprints.pretty")(options "")(descr ""))
+  (lib (name "RC4580IPWR")(type "KiCad")(uri "/Users/gabe/Documents/school/hope decal/RC4580IPWR.pretty")(options "")(descr ""))
+  (lib (name "PCM3002E")(type "KiCad")(uri "/Users/gabe/Documents/school/hope decal/PCM3002E.pretty")(options "")(descr ""))
+)
