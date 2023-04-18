@@ -3891,7 +3891,7 @@
     (uuid 6f2cd4ca-7c42-428f-9d9c-89018477b24d)
     (property "Reference" "SW3" (id 0) (at 212.344 99.568 0))
     (property "Value" "Boot" (id 1) (at 212.344 105.664 0))
-    (property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder" (id 2) (at 212.344 98.806 0)
+    (property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical" (id 2) (at 212.344 98.806 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (id 3) (at 212.344 98.806 0)
@@ -4381,7 +4381,7 @@
   (symbol (lib_id "power:GND") (at 37.338 34.544 0) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid a9104608-e87f-4050-9bf2-8dd959f138c7)
-    (property "Reference" "#PWR?" (id 0) (at 37.338 40.894 0)
+    (property "Reference" "#PWR0106" (id 0) (at 37.338 40.894 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (id 1) (at 39.878 37.592 0))
@@ -5233,6 +5233,9 @@
     (path "/86ba7619-b9be-48d4-99ce-54294e9ef067"
       (reference "#PWR0105") (unit 1) (value "+3V3") (footprint "")
     )
+    (path "/a9104608-e87f-4050-9bf2-8dd959f138c7"
+      (reference "#PWR0106") (unit 1) (value "GND") (footprint "")
+    )
     (path "/8dafe3a8-04b6-4c89-a079-2ef416a0c99a"
       (reference "#PWR0108") (unit 1) (value "+3V3") (footprint "")
     )
@@ -5253,9 +5256,6 @@
     )
     (path "/fdc9bb8a-c834-4db9-b965-091a7f47b6dd"
       (reference "#PWR0137") (unit 1) (value "+3V3") (footprint "")
-    )
-    (path "/a9104608-e87f-4050-9bf2-8dd959f138c7"
-      (reference "#PWR?") (unit 1) (value "GND") (footprint "")
     )
     (path "/75668013-1e69-49e1-87ea-b4703c0a1350"
       (reference "C1") (unit 1) (value "1uF") (footprint "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder")
@@ -5384,7 +5384,7 @@
       (reference "SW2") (unit 1) (value "SW_3PDT") (footprint "Connector_PinHeader_2.54mm:PinHeader_1x09_P2.54mm_Vertical")
     )
     (path "/6f2cd4ca-7c42-428f-9d9c-89018477b24d"
-      (reference "SW3") (unit 1) (value "Boot") (footprint "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder")
+      (reference "SW3") (unit 1) (value "Boot") (footprint "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical")
     )
     (path "/0340a396-8850-47cb-8e38-907102103ba7"
       (reference "SW4") (unit 1) (value "Reset") (footprint "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical")
